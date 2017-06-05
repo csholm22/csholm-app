@@ -1,57 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
+@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700');
 ///Fonts///
+h1,
+h2,
+p,
+a,
+em {
+    font-family: 'Kalam', cursive, 'Helvetica', 'Arial', 'Sans-Serif';
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0;
+}
 
-h1, h2, p, a, em {
-  font-family: 'Indie Flower','Helvetica', 'Arial', 'Sans-Serif';
-  line-height: 1.5em;
-  margin: 0;
-};
+h1 {
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0 0 15px 0;
+}
 
-h2, p {
-  margin-bottom: 20px;
-  &:last-child {
-    margin-bottom: 0;
-  }
+h2,
+p {
+    margin-bottom: 20px;
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 body {
-  padding: 60px 0;
+    padding: 60px 0;
 }
 
-.container, footer {
+.container,
+footer {
     margin: 0 auto;
     width: 70%;
     @media (max-width: 600px) {
-      width: 90%;
-    };
+        width: 90%;
+    }
+    ;
 }
-nav ul, footer ul {
+
+nav ul,
+footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+
+nav ul li,
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
-    color: #999;
+    color: #727272;
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
 }
-a:hover {
-    text-decoration: underline;
-}
+
 h1 {
     font-size: 3em;
 }
+
 p {
     font-size: 1.5em;
     font-weight: 300;
     line-height: 1.4em;
     color: #333;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -68,5 +90,5 @@ ul.posts li {
 
 ///Typography////
 .inline-block {
-  display: inline-block;
+    display: inline-block;
 }
