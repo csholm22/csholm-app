@@ -9,7 +9,19 @@ export class MainComponent implements OnInit {
 
 
   whatIam () {
-    let text = ["Coder", "Dog Lover", "Cool Dude"];
+    let text = [
+        'Graphic Designer',
+        'UX Designer',
+        'UI Designer',
+        'Frontend Web Developer',
+        'Doodler',
+        'Husband',
+        'Cat Hearder',
+        'Dog Lover',
+        'Hard-core Gamer',
+        'Musician',
+        'seeker & sharer of knowledge'
+    ];
     let counter = 0;
     let elem = document.getElementById("changeText");
     let inst = setInterval(change, 2000);
@@ -19,7 +31,7 @@ export class MainComponent implements OnInit {
       counter++;
       if (counter >= text.length) {
         counter = 0;
-        // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+        clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
       }
     }
   }

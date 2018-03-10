@@ -29,6 +29,11 @@ footer ul li {
     margin-right: 20px;
 }
 
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
 a {
     text-decoration: none;
     color: #727272;
@@ -36,11 +41,6 @@ a {
     &:focus {
         text-decoration: underline;
     }
-}
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 
 ul.posts {

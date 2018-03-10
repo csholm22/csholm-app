@@ -3,9 +3,11 @@
     justify-content: center;
 }
 
-.sub-tag-line {
-    @media screen and (min-width: 768px) {
-        display: block;
+h1 {
+    .sub-tag-line {
+        @media screen and (min-width: 768px) {
+            display: block;
+        }
     }
 }
 
@@ -13,6 +15,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 70vh;
-    padding-top: 30vh;
+    @media screen and (min-height: 600px) {
+        height: 75vh;
+        padding-top: 20vh;
+    }
 }
