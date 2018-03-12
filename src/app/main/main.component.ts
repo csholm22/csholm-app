@@ -16,7 +16,7 @@ export class MainComponent implements OnInit {
         'Frontend Web Developer',
         'Doodler',
         'Husband',
-        'Cat Hearder',
+        'Cat Herder',
         'Dog Lover',
         'Hard-core Gamer',
         'Musician',
